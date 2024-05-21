@@ -1,0 +1,173 @@
+.handbrake{
+    &__desc{
+        display: flex;
+        margin: auto;
+        // border: 1px solid red;
+         max-width: 367px;
+        font-size: 36px;
+        font-weight: 300;
+        color: #1391CE;
+        margin-bottom: 120px;
+    }
+    &__box{
+        display: flex;
+        gap: 112px;
+        margin-bottom: 80px;
+    }
+    &__foto{
+        width: 50%;
+        b{
+            font-size: 32px;
+            font-weight: 500;
+            color: #1391CE;
+            margin-bottom: 32px;
+        }
+    }
+    .handbrake__item{
+        font-size: 16px;
+        font-weight: 400;
+        color: #25468A;
+        margin-bottom: 16px;
+    }
+    &__p{
+        font-size: 18px;
+        font-weight: 400;
+        max-width: 448px;
+        color: #4F4F4F;
+        margin-top: 32px;
+        margin-bottom: 14px;
+    }
+    &__collection{
+        font-size: 22px;
+        font-weight: 400;
+        color: #1391CE;
+        margin-bottom: 10px;
+    }
+    .handbrake__sircl{
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        p{
+            max-width: 441px;
+            font-size: 16px;
+            font-weight: 400;
+            color: #4F4F4F;
+            margin-bottom: 9px;
+             padding-top: 9px;
+        }
+        
+    }
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 990px) {
+    .handbrake{
+        &__desc{
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        &__box{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        &__foto{
+            width: 100%;
+            .handbrake__item{
+                font-size: 4px;
+                font-weight: 400;
+                margin-bottom: 10px;
+    
+            }
+            b{
+                font-size: 28px;
+                font-weight: 400;
+                margin-bottom: 28px;
+            }
+        }
+        &__p{
+           font-size: 16px;
+           font-weight: 300;
+           margin-bottom: 5px;
+        }
+        &__collection{
+            font-size: 20px;
+            font-weight: 300;
+            margin-bottom: 5px;
+        }
+        .handbrake__sircl{
+            img{
+                width: 18px;
+                height: 18px;
+            }
+            p{
+                font-size: 14px;
+                font-weight: 300;
+            }
+        }
+       
+    }
+    
+}
+@media (max-width: 450px) {
+    .handbrake{
+        &__desc{
+            font-size: 22px;
+            margin-bottom: 18px;
+        }
+        &__box{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-bottom: 10px;
+        }
+        &__foto{
+            width: 100%;
+            &__item{
+                font-size: 13px;
+                font-weight: 300;
+                margin-bottom: 8px;
+    
+            }
+            b{
+                font-size: 24px;
+                font-weight: 400;
+                margin-bottom: 24px;
+            }
+        }
+        &__p{
+           font-size: 14px;
+           font-weight: 300;
+           margin-bottom: 4px;
+        }
+        &__collection{
+            font-size: 18px;
+            font-weight: 300;
+            margin-bottom: 4px;
+        }
+        .handbrake__sircl{
+            img{
+                width: 15px;
+                height: 15px;
+            }
+            p{
+                font-size: 12px;
+                font-weight: 300;
+            }
+        }
+       
+    }
+    
+}
